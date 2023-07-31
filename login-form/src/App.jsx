@@ -1,12 +1,14 @@
+import React from 'react';
 import LoginForm from './LoginForm';
 import FooterComponent from './FooterComponent';
 import HeaderComponent from './HeaderComponent';
-const App: React.FC = () => {
+
+const App = () => {
   return (
     <div className="App">
-      <HeaderComponent></HeaderComponent>
+      <HeaderComponent />
       <LoginForm />
-       <FooterComponent></FooterComponent>
+      <FooterComponent />
     </div>
   );
 };
